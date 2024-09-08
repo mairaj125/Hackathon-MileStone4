@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="keywords" content="" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackathon Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body class="A4">
+  <form id="form">
+    <div class="page1" id="page1">
+      <div class="two-column resume resume1">
+        <section class="resume-section resume-header">
+          <div class="row">
+            <div class="col-md-8 col-sm-8">
+              <div class="info-item">
+                <span class="info-label"><i class="fa fa-user"></i></span><span class="info-text">
+                <input type="text" class="" id="fullname" placeholder="Full Name" ></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa fa-location-arrow"></i></span><span class="info-text">
+                  <input type="text" class="" id="address" placeholder="Address" ></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa fa-envelope"></i></span><span
+                  class="info-text"><input type="email" class="" id="email" placeholder="Email" ></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa fa-phone"></i></span><span class="info-text"><input type="number" class="" id="phoneNo" placeholder="Phone Number" ></span>
+              </div>
+
+
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <img src="./mairaj.jpg" alt="mairaj" class="img-thumbnail">
+            </div>
+          </div>
+        </section>
+        <div class="resume-columns">
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <section class="resume-section resume-summary">
+                <div class="resume-content">
+                  <div class="resume-section-title">
+                    <i class="fa fa-pencil-square-o"></i>
+                    <h2>Professional Summary</h2>
+                   
+                  </div>
+                  <div class="other" id="professional_element">
+                    <div class="other-info">
+                      <textarea class="" id="professionalSummary" placeholder="Please enter your Professional Summary" ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="resume-section resume-experience">
+                <div class="resume-content">
+                  <div class="resume-section-title">
+                    <i class="fa fa-book"></i>
+                    <h2>Education</h2>
+                    
+                  </div>
+                  <div id="education_element">
+                    <div class="xp-item">
+                      <div class="xp-job">
+                        <input type="text" class="" id="educationLabel" placeholder="Education" >
+                        <br /><small><input type="text" class="" id="schoolName" placeholder="School Name" ></small>
+                      </div>
+                      <div class="xp-date"><input type="text" class="" id="startYear" placeholder="start Year" > - <input type="text" class="" id="endYear" placeholder="End Year" ></div>
+                    </div>
+                    
+                  </div>
+
+                </div>
+              </section>
+              <section class="resume-section resume-experience">
+                <div class="resume-content">
+                  <div class="resume-section-title">
+                    <i class="fa fa-briefcase"></i>
+                    <h2>Employment History</h2>
+                    
+                  </div>
+                  <div class="xp-item" id="employment_element">
+                    <div class="xp-job">
+                      <input type="text" class="" id="designation" placeholder="Designation" >
+                      <br /><small><input type="text" class="" id="companyName" placeholder="Company Name" ></small>
+                    </div>
+                    <div class="xp-date"><input type="text" class="" id="joiningDate" placeholder="Joining Date" > - <input type="text" class="" id="endDate" placeholder="End Date" ></div>
+                    <div class="xp-detail">
+                      <textarea class="" id="employementHistory" placeholder="Please enter your Employement History"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-4 col-sm-12 aside">
+              <section class="resume-section resume-skills">
+                <div class="resume-content">
+                  <div class="resume-section-title">
+                    <i class="fa fa-align-center"></i>
+                    <h2>Skills</h2>
+                    
+                  </div>
+                  <div class="resume-text" id="skill_element">
+                    <div class="extra">
+                      <div class="extra-info">
+                        <input type="text" class="" id="skills" placeholder="Skills" ><br /><small><input type="text" class="" id="moreSkill" placeholder="More Skill" > - <input type="text" class="" id="moreSkill1" placeholder="More Skill" ></small>
+                      </div>
+                      <div class="">
+                        <input type="number" class="" id="rating" placeholder="Skill Rating" max="100" >
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </section>
+              <section class="resume-section resume-languages">
+                <div class="resume-content">
+                  <div class="resume-section-title">
+                    <i class="fa fa-globe"></i>
+                    <h2>Languages</h2>
+                    
+                  </div>
+                  <div id="languages_element">
+                    <div class="extra">
+                      <div class="extra-info">
+                        <input type="text" class="" id="language" placeholder="Language" >
+                      </div>
+                      <div class="">
+                        <input type="number" class="" id="langrating" placeholder="Language Rating" max="100" >
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </section>
+
+              <section class="resume-section resume-languages">
+                <div class="resume-content">
+                  <div class="resume-section-title">
+                    <i class="fa fa-magic"></i>
+                    <h2>Hobby</h2>
+                   
+                  </div>
+                  <div id="hobby_element">
+                    <div class="extra">
+                      <div class="extra-info">
+                        <input type="text" class="" id="hobby" placeholder="Hobby" >
+                      </div>
+                      <div class="">
+                        <input type="number" class="" id="hobbyrating" placeholder="Hobby Rating" max="100" >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-success" id="generateBtn">Generate Resume</button>
+  </form>
+  <div id="output"></div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
